@@ -15,6 +15,9 @@ body {
 .link {
   text-decoration: none;
 }
+.header-page {
+  display: flex;
+}
 
 /*LOGO in HEADER*/
 

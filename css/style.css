@@ -22,7 +22,15 @@ p {
 ul {
   margin: 0px;
 }
-
+nav {
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .link {
   text-decoration: none;
 }
@@ -46,9 +54,30 @@ ul {
   letter-spacing: 0.03em;
 }
 /*NAVIGATION*/
+.main-nav {
+  display: flex;
+  align-items: center;
+  outline: 3px solid yellow;
+}
+.main-nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
 .nav-list {
   list-style: none;
+  display: flex;
+  margin-left: 93px;
+  padding-left: 0px;
 }
+.nav-list .item {
+  outline: 1px solid green;
+  margin-right: 50px;
+}
+.nav-list .item:last-child {
+  margin-right: 0px;
+}
+
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -67,6 +96,15 @@ ul {
 .contacts-list {
   list-style: none;
   font-style: normal;
+  display: flex;
+  margin-left: auto;
+}
+.contacts-list .item {
+  outline: 1px solid red;
+  margin-left: 50px;
+}
+.contacts-list .item:first-child {
+  margin-left: 0px;
 }
 .contacts-list .contact {
   color: var(--secondary-text-color);

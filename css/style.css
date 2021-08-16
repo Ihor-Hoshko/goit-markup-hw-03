@@ -34,6 +34,10 @@ nav {
 .link {
   text-decoration: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 /*LOGO in HEADER*/
 
@@ -210,6 +214,9 @@ nav {
   list-style: none;
   display: flex;
 }
+.advantage-title {
+  display: none;
+}
 .advantage-list .item + .item {
   margin-left: 30px;
 }
@@ -228,6 +235,10 @@ nav {
 
 .work-list-img {
   list-style: none;
+  display: flex;
+}
+.work-list-img .item + .item {
+  margin-left: 30px;
 }
 .work-list-title {
   letter-spacing: 0.03em;
@@ -237,7 +248,6 @@ nav {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17em;
-  text-align: center;
   letter-spacing: 0.03em;
 }
 
@@ -247,9 +257,13 @@ nav {
 
 .team-list-catalog {
   list-style: none;
+  display: flex;
 }
-
-.team-list-name {
+.team-list-catalog .item + .item {
+  margin-left: 30px;
+  margin-bottom: 94px;
+}
+.team-list-title .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 16px;

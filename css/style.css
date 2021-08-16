@@ -137,6 +137,7 @@ nav {
 .filter-list {
   background-color: #2f303a;
   list-style: none;
+  text-align: center;
 }
 
 .filter-list-title {
@@ -207,6 +208,10 @@ nav {
 }
 .advantage-list {
   list-style: none;
+  display: flex;
+}
+.advantage-list .item + .item {
+  margin-left: 30px;
 }
 .advantage-list .advantage-list-title {
   color: var(--primary-text-color);

@@ -34,6 +34,8 @@ section {
 .container {
   width: 1200px;
   align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .header-page {
@@ -67,6 +69,10 @@ section {
   align-items: center;
   outline: 3px solid green;
   margin-left: 30px;
+}
+.main-nav {
+  display: flex;
+  outline: 4px solid red;
 }
 .all-nav .link {
   display: block;
@@ -148,6 +154,8 @@ section {
   list-style: none;
   text-align: center;
   outline: 3px solid green;
+  padding-bottom: 200px;
+  padding-top: 350px;
 }
 
 .filter-list-title {
@@ -220,6 +228,7 @@ section {
   outline: 3px solid green;
   width: 1200px;
   margin-bottom: 94px;
+  padding-top: 94px;
 }
 .advantage-list .item {
   width: 270px;
@@ -252,13 +261,20 @@ section {
 }
 .work-list {
   outline: 3px solid green;
+  margin-bottom: 94px;
 }
 .work-list-img {
   list-style: none;
   display: flex;
+  text-align: center;
+}
+.work-list-img .item:last-child {
+  margin-right: 30px;
 }
 .work-list-title {
   letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  text-align: center;
 }
 .work-list-title .team-list-title {
   color: var(--primary-text-color);
@@ -272,13 +288,17 @@ section {
 .all-team {
   background-color: var(--button-background-color);
   outline: 3px solid green;
+  margin-bottom: 94px;
 }
 
 .team-list-catalog {
   list-style: none;
   display: flex;
 }
-
+.team-list-catalog .item {
+  margin-right: 30px;
+  text-align: center;
+}
 .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;

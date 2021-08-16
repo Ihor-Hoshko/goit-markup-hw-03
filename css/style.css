@@ -41,7 +41,6 @@ section {
 .header-page {
   display: flex;
   width: 1200px;
-  outline: 3px solid green;
   justify-content: space-between;
 }
 
@@ -67,23 +66,19 @@ section {
 .all-nav {
   display: flex;
   align-items: center;
-  outline: 3px solid green;
   margin-left: 30px;
 }
 .main-nav {
   display: flex;
-  outline: 4px solid red;
 }
 .all-nav .link {
   display: block;
-  outline: 3px solid green;
   margin-left: auto;
 }
 .nav-list {
   list-style: none;
   display: flex;
   margin-left: 90px;
-  outline: 3px solid green;
 }
 .nav-list .item {
   margin-right: 40px;
@@ -113,7 +108,6 @@ section {
   font-style: normal;
   display: flex;
   margin-left: auto;
-  outline: 3px solid green;
   margin-right: 215px;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -153,7 +147,6 @@ section {
   background-color: #2f303a;
   list-style: none;
   text-align: center;
-  outline: 3px solid green;
   padding-bottom: 200px;
   padding-top: 350px;
 }
@@ -225,7 +218,6 @@ section {
   letter-spacing: 0.03em;
 }
 .all-advantage {
-  outline: 3px solid green;
   width: 1200px;
   margin-bottom: 94px;
   padding-top: 94px;
@@ -260,7 +252,6 @@ section {
   line-height: 1.7;
 }
 .work-list {
-  outline: 3px solid green;
   margin-bottom: 94px;
 }
 .work-list-img {
@@ -287,7 +278,6 @@ section {
 
 .all-team {
   background-color: var(--button-background-color);
-  outline: 3px solid green;
   margin-bottom: 94px;
 }
 
@@ -317,6 +307,7 @@ section {
 .all-footer {
   background-color: #2f303a;
   width: 1200px;
+  padding-left: 215px;
 }
 
 .footer-logo-studio {

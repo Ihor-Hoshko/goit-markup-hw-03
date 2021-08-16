@@ -25,8 +25,9 @@ p {
   padding: 0px;
   margin: 0px;
 }
-section {
-  width: 1200px;
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .link {
   text-decoration: none;
@@ -42,6 +43,7 @@ section {
   display: flex;
   width: 1200px;
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 
 /*LOGO in HEADER*/
@@ -73,21 +75,12 @@ section {
 }
 .all-nav .link {
   display: block;
-  margin-left: auto;
 }
 .nav-list {
   list-style: none;
   display: flex;
-  margin-left: 90px;
 }
-.nav-list .item {
-  margin-right: 40px;
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-.nav-list .item:last-child {
-  margin-right: 0px;
-}
+
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -107,14 +100,8 @@ section {
   list-style: none;
   font-style: normal;
   display: flex;
-  margin-left: auto;
-  margin-right: 215px;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
-.contacts-list .item + .item {
-  margin-left: 40px;
-}
+
 .contacts-list .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -147,8 +134,6 @@ section {
   background-color: #2f303a;
   list-style: none;
   text-align: center;
-  padding-bottom: 200px;
-  padding-top: 350px;
 }
 
 .filter-list-title {
@@ -156,7 +141,6 @@ section {
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
-  margin-bottom: 30px;
   line-height: 1.3;
 }
 .filter-list-all {
@@ -217,26 +201,13 @@ section {
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
-.all-advantage {
-  width: 1200px;
-  margin-bottom: 94px;
-  padding-top: 94px;
-}
-.advantage-list .item {
-  width: 270px;
-  margin-left: 30px;
-}
+
 .advantage-title {
   display: none;
 }
 .advantage-list {
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
-  margin-left: 30px;
-}
-.advantage-list .item:first-child {
-  margin-left: 0px;
 }
 
 .advantage-list .advantage-list-title {
@@ -251,20 +222,15 @@ section {
   font-size: 14px;
   line-height: 1.7;
 }
-.work-list {
-  margin-bottom: 94px;
-}
+
 .work-list-img {
   list-style: none;
   display: flex;
   text-align: center;
 }
-.work-list-img .item:last-child {
-  margin-right: 30px;
-}
+
 .work-list-title {
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
   text-align: center;
 }
 .work-list-title .team-list-title {
@@ -278,7 +244,6 @@ section {
 
 .all-team {
   background-color: var(--button-background-color);
-  margin-bottom: 94px;
 }
 
 .team-list-catalog {
@@ -286,8 +251,8 @@ section {
   display: flex;
 }
 .team-list-catalog .item {
-  margin-right: 30px;
   text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 }
 .team-list-name {
   color: var(--primary-text-color);
@@ -303,11 +268,10 @@ section {
   line-height: 1.1;
   letter-spacing: 0.03em;
 }
-/*LOGO in FOOTER*/
+/* FOOTER*/
+
 .all-footer {
   background-color: #2f303a;
-  width: 1200px;
-  padding-left: 215px;
 }
 
 .footer-logo-studio {

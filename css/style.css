@@ -10,7 +10,13 @@
 body {
   background-color: #ffffff;
   color: var(--primary-text-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 .link {
   text-decoration: none;
@@ -20,7 +26,7 @@ body {
 
 .logo-web-header {
   color: var(--button-hover-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.1;
@@ -28,16 +34,40 @@ body {
 }
 .logo-studio-header {
   color: black;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  margin-right: 93px;
 }
 /*NAVIGATION*/
-.nav-list {
-  list-style: none;
+.page-header {
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
+
+.page-header .container {
+  display: flex;
+  align-items: center;
+}
+
+.all-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+.nav-list .item + .item {
+  margin-left: 50px;
+}
+
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -54,8 +84,12 @@ body {
 }
 /*CONTACTS*/
 .contacts-list {
+  display: flex;
   list-style: none;
   font-style: normal;
+}
+.contacts-list .item + .item {
+  margin-left: 50px;
 }
 .contacts-list .contact {
   color: var(--secondary-text-color);
@@ -216,7 +250,7 @@ body {
 
 .footer-logo-studio {
   color: var(--button-hover-text-color);
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;

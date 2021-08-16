@@ -12,38 +12,8 @@ body {
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
 }
-ul {
-  padding: 0px;
-  margin: 0px;
-}
-h1,
-h2 {
-  padding: 0px;
-  margin: 0px;
-}
-p {
-  padding: 0px;
-  margin: 0px;
-}
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
 .link {
   text-decoration: none;
-}
-.container {
-  width: 1200px;
-  align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.header-page {
-  display: flex;
-  width: 1200px;
-  justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 
 /*LOGO in HEADER*/
@@ -65,22 +35,9 @@ p {
   letter-spacing: 0.03em;
 }
 /*NAVIGATION*/
-.all-nav {
-  display: flex;
-  align-items: center;
-  margin-left: 30px;
-}
-.main-nav {
-  display: flex;
-}
-.all-nav .link {
-  display: block;
-}
 .nav-list {
   list-style: none;
-  display: flex;
 }
-
 .nav-list .nav-list-link {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -99,9 +56,7 @@ p {
 .contacts-list {
   list-style: none;
   font-style: normal;
-  display: flex;
 }
-
 .contacts-list .contact {
   color: var(--secondary-text-color);
   font-weight: 500;
@@ -133,7 +88,6 @@ p {
 .filter-list {
   background-color: #2f303a;
   list-style: none;
-  text-align: center;
 }
 
 .filter-list-title {
@@ -141,6 +95,7 @@ p {
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
+  text-align: center;
   line-height: 1.3;
 }
 .filter-list-all {
@@ -201,15 +156,9 @@ p {
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
-
-.advantage-title {
-  display: none;
-}
 .advantage-list {
   list-style: none;
-  display: flex;
 }
-
 .advantage-list .advantage-list-title {
   color: var(--primary-text-color);
   font-weight: 700;
@@ -225,13 +174,9 @@ p {
 
 .work-list-img {
   list-style: none;
-  display: flex;
-  text-align: center;
 }
-
 .work-list-title {
   letter-spacing: 0.03em;
-  text-align: center;
 }
 .work-list-title .team-list-title {
   color: var(--primary-text-color);
@@ -248,12 +193,8 @@ p {
 
 .team-list-catalog {
   list-style: none;
-  display: flex;
 }
-.team-list-catalog .item {
-  text-align: center;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-}
+
 .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -268,8 +209,7 @@ p {
   line-height: 1.1;
   letter-spacing: 0.03em;
 }
-/* FOOTER*/
-
+/*LOGO in FOOTER*/
 .all-footer {
   background-color: #2f303a;
 }

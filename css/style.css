@@ -261,18 +261,25 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17em;
-  text-align: center;
+  
   letter-spacing: 0.03em;
 }
-
+                                                /* team */
 .all-team {
   background-color: var(--button-background-color);
-}
 
+}
+.team-list-title {
+  text-align: center;
+}
 .team-list-catalog {
   list-style: none;
+  display: flex;
+  padding-left: 0px;
 }
-
+.team-list-catalog .item + .item {
+  padding-left: 30px;
+}
 .team-list-name {
   color: var(--primary-text-color);
   font-weight: 500;
@@ -291,17 +298,28 @@ body {
 .all-footer {
   background-color: #2f303a;
 }
-
+.contacts-footer {
+  list-style: none;
+  padding-top: 20px;
+}
+.contacts-footer .item + .item {
+  padding-top: 9px;
+  margin-left: 0px;
+}
 .footer-logo-studio {
   color: var(--button-hover-text-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  
+
+}
+.logotype {
+  padding-top: 60px;
 }
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
-
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.03em;

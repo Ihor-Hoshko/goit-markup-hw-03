@@ -18,6 +18,10 @@ body {
   padding-right: 15px;
   margin: 0 auto;
 }
+.section {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 .link {
   text-decoration: none;
 }
@@ -119,9 +123,16 @@ body {
 }
 
 /*FILTER*/
+.container .filter {
+  align-items: center;
+}
+
 .filter-list {
   background-color: #2f303a;
   list-style: none;
+}
+.hidden-title {
+  display: none;
 }
 
 .filter-list-title {
@@ -134,7 +145,11 @@ body {
 }
 .filter-list-all {
   background-color: #ffffff;
+  display: flex;
   list-style: none;
+}
+.filter-list-all .item + .item {
+  margin-left: 8px;
 }
 .filter-list-all .button {
   color: var(--primary-text-color);

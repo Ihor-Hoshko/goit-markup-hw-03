@@ -67,7 +67,6 @@ body {
 .nav-list {
   display: flex;
   list-style: none;
-  
 }
 .nav-list .item + .item {
   margin-left: 50px;
@@ -190,20 +189,11 @@ body {
   color: var(--button-hover-text-color);
   background-color: #188ce8;
 }
-                                                                        /*PROJECTS*/
+/*PROJECTS*/
 .project-list .container {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  
-  
-}
-.project-list .item {
-  flex-basis: calc (100%/3-30px);
-  margin-top: 30px;
-  margin-left: 30px;
-
-  }
 }
 
 .project-list .project-list-title {
@@ -220,7 +210,7 @@ body {
   line-height: 1.8;
   letter-spacing: 0.03em;
 }
-                                      /* advantage */
+/* advantage */
 .advantage-list {
   list-style: none;
   display: flex;
@@ -241,13 +231,12 @@ body {
   font-size: 14px;
   line-height: 1.7;
 }
-                                  /* work чем мы занимаемся */
+/* work чем мы занимаемся */
 
- .work-list-img {
+.work-list-img {
   list-style: none;
   display: flex;
   padding-left: 0px;
-  
 }
 .work-list-img .item + .item {
   padding-left: 30px;
@@ -261,13 +250,12 @@ body {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17em;
-  
+
   letter-spacing: 0.03em;
 }
-                                                /* team */
+/* team */
 .all-team {
   background-color: var(--button-background-color);
-
 }
 .team-list-title {
   text-align: center;
@@ -312,8 +300,6 @@ body {
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  
-
 }
 .logotype {
   padding-top: 60px;

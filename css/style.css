@@ -296,7 +296,8 @@ img {
 /* team */
 .all-team {
   background-color: var(--button-background-color);
-  margin-right: 0px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .team-list-title {
   text-align: center;

@@ -326,6 +326,7 @@ img {
   display: flex;
   padding-left: 0px;
   margin-top: 50px;
+  justify-content: center;
 }
 .team-list-catalog .item + .item {
   padding-left: 30px;

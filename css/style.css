@@ -146,8 +146,8 @@ img {
   background-color: #2f303a;
   list-style: none;
   text-align: center;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .hidden-title {
   visibility: hidden;
@@ -250,10 +250,10 @@ img {
   margin-top: 4px;
 }
 /* advantage */
+
 .advantage-list {
   list-style: none;
   display: flex;
-  padding-left: 0px;
 }
 .advantage-list .item + .item {
   padding-left: 30px;
@@ -276,6 +276,7 @@ img {
   list-style: none;
   display: flex;
   padding-left: 0px;
+  margin-top: 50px;
 }
 .work-list-img .item + .item {
   padding-left: 30px;
@@ -295,6 +296,7 @@ img {
 /* team */
 .all-team {
   background-color: var(--button-background-color);
+  margin-right: 0px;
 }
 .team-list-title {
   text-align: center;
@@ -303,6 +305,7 @@ img {
   list-style: none;
   display: flex;
   padding-left: 0px;
+  margin-top: 50px;
 }
 .team-list-catalog .item + .item {
   padding-left: 30px;
@@ -313,6 +316,7 @@ img {
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  text-align: center;
 }
 .team-list-description {
   color: var(--secondary-text-color);
@@ -320,11 +324,20 @@ img {
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  margin-top: 10px;
+  text-align: center;
+}
+.team-list-content {
+  padding-right: 58px;
+  padding-left: 58px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 /*LOGO in FOOTER*/
 .all-footer {
   background-color: #2f303a;
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 .contacts-footer {
   list-style: none;
@@ -341,9 +354,7 @@ img {
   line-height: 1.1;
   letter-spacing: 0.03em;
 }
-.logotype {
-  padding-top: 60px;
-}
+
 .contact-footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;

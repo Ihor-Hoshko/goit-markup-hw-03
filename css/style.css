@@ -324,6 +324,7 @@ img {
 /*LOGO in FOOTER*/
 .all-footer {
   background-color: #2f303a;
+  padding-bottom: 60px;
 }
 .contacts-footer {
   list-style: none;

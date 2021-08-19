@@ -340,6 +340,9 @@ img {
   padding-bottom: 60px;
   padding-top: 60px;
 }
+.logotype {
+  padding-left: 40px;
+}
 .contacts-footer {
   list-style: none;
   padding-top: 20px;

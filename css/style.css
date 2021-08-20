@@ -63,9 +63,6 @@ img {
 /*NAVIGATION*/
 .page-header {
   padding-left: 0;
-
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
 }
 
@@ -89,14 +86,21 @@ img {
 }
 
 .nav-list .nav-list-link {
+  display: block;
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  padding-bottom: 32px;
+  padding-top: 32px;
 }
+
 .nav-list .nav-list-link.current {
+  display: block;
   color: var(--button-hover-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list .nav-list-link:hover,
 .nav-list .nav-list-link:focus {
@@ -122,8 +126,15 @@ img {
 }
 .contacts-list .contact.current {
   color: var(--button-hover-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-
+.contacts-list .contact.link {
+  display: block;
+  padding-bottom: 32px;
+  padding-top: 32px;
+}
 .contacts-list .contact:hover,
 .contacts-list .contact:focus {
   color: var(--button-hover-color);

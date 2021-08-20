@@ -63,7 +63,7 @@ img {
 /*NAVIGATION*/
 .page-header {
   padding-left: 0;
-  padding-right: auto;
+
   padding-top: 24px;
   padding-bottom: 25px;
   border-bottom: 1px solid #ececec;
@@ -233,6 +233,7 @@ img {
   margin-left: -30px;
   padding-left: 0px;
 }
+
 .project-content {
   padding-left: 24px;
   padding-right: 24px;
@@ -363,17 +364,17 @@ img {
   padding-top: 60px;
   padding-left: 215px;
 }
-.logotype {
-  padding-left: 40px;
-}
+
 .contacts-footer {
   list-style: none;
   padding-top: 20px;
+  padding-left: 0px;
 }
 .contacts-footer .item + .item {
   padding-top: 9px;
   margin-left: 0px;
 }
+
 .footer-logo-studio {
   color: var(--button-hover-text-color);
   font-family: "Raleway", sans-serif;

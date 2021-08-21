@@ -387,16 +387,18 @@ img {
   background-color: #2f303a;
   padding-bottom: 60px;
   padding-top: 60px;
-  padding-left: 215px;
+}
+.all-footer .contacts-list {
+  margin-top: 20px;
 }
 
 .contacts-footer {
   list-style: none;
-  padding-top: 20px;
+
   padding-left: 0px;
 }
 .contacts-footer .item + .item {
-  padding-top: 9px;
+  margin-top: 9px;
   margin-left: 0px;
 }
 

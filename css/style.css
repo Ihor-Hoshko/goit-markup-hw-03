@@ -70,7 +70,6 @@ img {
   font-weight: 700;
   line-height: 1.1;
   letter-spacing: 0.03em;
-  margin-right: 93px;
 }
 /*NAVIGATION*/
 .page-header {
@@ -87,7 +86,9 @@ img {
   display: flex;
   align-items: center;
 }
-
+.link-logo-header {
+  margin-right: 93px;
+}
 .nav-list {
   display: flex;
   list-style: none;
